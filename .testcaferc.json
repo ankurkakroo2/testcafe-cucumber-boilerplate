@@ -8,6 +8,9 @@
   },
   "reporter": [
     {
+      "name": "spec"
+    },
+    {
       "name": "cucumber-json",
       "output": "reports/report.json"
     }

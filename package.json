@@ -12,7 +12,7 @@
     "test": "gherkin-testcafe --dev",
     "validate": "cucumber-js tests/features/**/*.feature -r tests/stepDefs/**/*.js",
     "report": "node utils/generateReport.js",
-    "test-report": "yarn test && yarn report",
+    "test-with-report": "yarn test && yarn report",
     "test:ci": "gherkin-testcafe chrome:headless",
     "lint": "eslint"
   },
