@@ -1,7 +1,7 @@
 const { Given, When, Then } = require('cucumber');
 
 Given('user goes to URL {string}', async (testController) => {
-  return 'pending';
+  await testController.navigateTo('https://www.google.com/');
 });
 
 When('user clicks linkAbout from test-page-example', () => {

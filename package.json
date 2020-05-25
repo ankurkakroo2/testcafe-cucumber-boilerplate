@@ -9,7 +9,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "gherkin-testcafe",
+    "test": "gherkin-testcafe --dev",
     "validate": "cucumber-js tests/features/**/*.feature -r tests/stepDefs/**/*.js",
     "report": "node utils/generateReport.js",
     "test-report": "yarn test && yarn report",
