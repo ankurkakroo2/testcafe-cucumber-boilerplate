@@ -1,0 +1,34 @@
+{
+  "name": "testcafe-cucumber-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for using testcafe via cucumber",
+  "author": "Ankur Kakroo",
+  "license": "MIT",
+  "main": "",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "gherkin-testcafe",
+    "validate": "cucumber-js tests/features/**/*.feature -r tests/stepDefs/**/*.js",
+    "report": "node utils/generateReport.js",
+    "test-report": "yarn test && yarn report",
+    "test:ci": "gherkin-testcafe chrome:headless",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "cucumber": "^6.0.5",
+    "gherkin-testcafe": "^2.5.0",
+    "multiple-cucumber-html-reporter": "^1.16.2",
+    "testcafe": "^1.8.5",
+    "testcafe-reporter-cucumber-json": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0"
+  },
+  "keywords": [
+    "cucumber",
+    "cucumber-testcafe",
+    "snippets"
+  ]
+}
