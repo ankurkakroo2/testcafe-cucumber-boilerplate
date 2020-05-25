@@ -4,8 +4,6 @@ dist: bionic
 language: node_js
 node_js:
   - "12"
-  - "13"
-  - "14"
 
 before_install:
  - sudo apt-get update
