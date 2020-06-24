@@ -1809,9 +1809,10 @@ get-value@^2.0.3, get-value@^2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/get-value/-/get-value-2.0.6.tgz#dc15ca1c672387ca76bd37ac0a395ba2042a2c28"
 
-gherkin-testcafe@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/gherkin-testcafe/-/gherkin-testcafe-2.5.0.tgz#47297a1bacfe44a1660e22fda2f17c8264d281c5"
+gherkin-testcafe@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/gherkin-testcafe/-/gherkin-testcafe-2.5.1.tgz#8f1e9c4f6363fc83c3b9da921c337c00272d5695"
+  integrity sha512-mq/fgRSsYOoHtcstonNQNL0WYuuGAYM1kk/YiMCgTzdkuAb/QUPeqk4qn4J/qqKzVZK8S3v4Ces3C13FKvbuaA==
   dependencies:
     gherkin "^8.1.1"
 
