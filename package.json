@@ -19,7 +19,7 @@
   "dependencies": {
     "cucumber": "^6.0.5",
     "gherkin-testcafe": "^2.5.0",
-    "multiple-cucumber-html-reporter": "^1.16.2",
+    "multiple-cucumber-html-reporter": "^1.16.3",
     "testcafe": "^1.8.5",
     "testcafe-reporter-cucumber-json": "^5.1.0"
   },

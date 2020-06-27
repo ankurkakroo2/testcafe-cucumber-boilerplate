@@ -2510,9 +2510,10 @@ ms@^2.1.1:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
 
-multiple-cucumber-html-reporter@^1.16.2:
-  version "1.16.2"
-  resolved "https://registry.yarnpkg.com/multiple-cucumber-html-reporter/-/multiple-cucumber-html-reporter-1.16.2.tgz#d367e96e6eeec19d070951f1dc035616b8b1dcae"
+multiple-cucumber-html-reporter@^1.16.3:
+  version "1.16.3"
+  resolved "https://registry.yarnpkg.com/multiple-cucumber-html-reporter/-/multiple-cucumber-html-reporter-1.16.3.tgz#561ccedf102026340663dcc62ae0359051b94561"
+  integrity sha512-Ut5fsRaq3vU+i6VsKRl87Iq/LNUJFRLf8LFg4qB4RNbVHZx+mgPZUgvboKmkIMkBA3QHr5VL71YF31e/FVpk3w==
   dependencies:
     chalk "^3.0.0"
     find "^0.3.0"
